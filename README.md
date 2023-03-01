@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10333409)
 # Distance Traveled
 
 The distance a vehicle travels can be calculated as follows: `distance = speed * time`. For example, if a train travels 40 miles per hour for 3 hours, the distance traveled is 120 miles.
