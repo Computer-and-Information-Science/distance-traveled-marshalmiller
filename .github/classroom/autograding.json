@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "95\r\n10",
+      "output": "950",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "93\r\n17",
+      "output": "1581",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "9\r\n10\r\n1",
+      "output": "Speed must be from 10 to 120, try again.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "10\r\n0\r\n1",
+      "output": "Hours must be from 1 to 24, try again.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "speed=10\r\n10\r\n1",
+      "output": "Speed must be from 10 to 120, try again.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
