@@ -5,7 +5,7 @@
       "setup": "g++ main.cpp",
       "run": "./a.out",
       "input": "95\r\n10",
-      "output": "Enter the vehicle speed: \r\nEnter hours traveled: \r\nHour  Distance\r\n----  --------\r\n  1       95\r\n  2      190\r\n  3      285\r\n  4      380\r\n  5      475\r\n  6      570\r\n  7      665\r\n  8      760\r\n  9      855\r\n 10      950",
+      "output": "  1       95\r\n  2      190\r\n  3      285\r\n  4      380\r\n  5      475\r\n  6      570\r\n  7      665\r\n  8      760\r\n  9      855\r\n 10      950",
       "comparison": "included",
       "timeout": 10,
       "points": 2
